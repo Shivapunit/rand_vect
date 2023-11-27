@@ -39,13 +39,17 @@ This will create a docker image named "rand_vect", Run it by using the same name
 2. Send a POST request to the API endpoint using your favorite HTTP client or tool (e.g., cURL, Postman).
     ```shell
     POST /vectorize HTTP/1.1
-    Host: localhost:5000
+    Host: [https://0.0.0.0:5000]
     Content-Type: application/json
     
     {
       "sentence": "This is an example sentence"
     }
 The API will respond with a JSON object containing the random 500-dimensional array of floats.
+
+3. curl -X POST -H "Content-Type: application/json" \
+    -d '{"sentence": "This is an example sentence"}' \
+    https://0.0.0.0:5000
 
 
 ## Server and Securtiy Configuration
