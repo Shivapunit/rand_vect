@@ -1,7 +1,7 @@
 #Author: Shivakant_Dubey
 #27/11/23
 from flask import Flask, request, jsonify
-from flask_cors import CORS
+from flask_cors import CORS, cross_origin
 import random
 import html
 import bleach #Throw error for latest verison
