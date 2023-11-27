@@ -9,7 +9,7 @@ Random Vectorizer API
 
 ## Installation - Development
    
-1.  pip3 install -r requirements.txt 
+1.  pip install -r requirements.txt 
 (Install dependencies in your virtual enviornment)
     
 ## Usage - Development
