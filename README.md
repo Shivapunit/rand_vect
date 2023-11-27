@@ -67,11 +67,12 @@ The tests ensure the functionality of the vectorization process and the expected
 Run tests in a module
    ```shell
    pytest app0.py
-   
+   ``` 
 Run tests in a directory
    ```shell
    pytest testing/
-   
+   ```
 Run tests by keyword expressions
    ```shell
    pytest -k 'This is an example sentence'
+   ```
