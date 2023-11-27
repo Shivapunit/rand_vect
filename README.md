@@ -1,6 +1,8 @@
 # rand_vect
 Random Vectorizer API
 
+[Use a web framework of your choice (Flask, Django, FastAPI, etc) to develop a single production-quality API endpoint that takes a sentence as input and returns a random 500 dimensional array of floats.]
+
 
 ## for Production deployment:
 1. 1st step - Docker installed in server.
